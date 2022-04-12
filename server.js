@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.status(201).send(obj);
 });
 
-app.get("/v1/instagram", (req, res) => {
+app.get("/vz/instagram", (req, res) => {
   // const instaSocial1 = {
   //   username: "___akashyadav___",
   //   followers: 101,
@@ -42,7 +42,7 @@ app.get("/v1/instagram", (req, res) => {
   res.status(200).json({ instaSocal });
 });
 
-app.get("/v1/facebook/", (req, res) => {
+app.get("/vz/facebook/", (req, res) => {
   const facebookSocial = [
     {
       username: "fac_akashyadav_6789",
@@ -60,7 +60,7 @@ app.get("/v1/facebook/", (req, res) => {
   res.status(200).json({ facebookSocial });
 });
 
-app.get("/v1/linkedin/", (req, res) => {
+app.get("/vz/linkedin/", (req, res) => {
   const linkedSocial = [
     {
       username: "akash503yadav",
@@ -80,7 +80,7 @@ app.get("/v1/linkedin/", (req, res) => {
   res.status(200).json({ linkedSocial });
 });
 
-app.get("/v1/:token/", (req, res) => {
+app.get("/vz/:token/", (req, res) => {
   console.log(req.params.token);
   res.status(200).send({ params: req.params.token });
 });
@@ -89,7 +89,7 @@ app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
 
-app.get("/v1/:token/:name", (req, res) => {
+app.get("/vz/:token/:name", (req, res) => {
   console.log(req.params.token);
   res
     .status(200)
