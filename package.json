@@ -9,7 +9,7 @@
   "description": "\"This is a application in express for learning purpose\"",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Akash Yadav",
   "license": "ISC",
