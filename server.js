@@ -20,12 +20,7 @@ app.get("/vz/instagram", (req, res) => {
   //   following: 115,
   //   date: Date.now,
   // };
-  // const instaSocial2 = {
-  //   username: "ay_muski",
-  //   followers: 31,
-  //   following: 3,
-  //   date: Date.now,
-  // };
+
   const instaSocal = [
     {
       username: "___akashyadav___",
@@ -34,7 +29,7 @@ app.get("/vz/instagram", (req, res) => {
       date: formate.asString("dd MM - hh:mm:ss", new Date()),
     },
     {
-      username: "ay_muski",
+      username: "himanshudeshmukh99",
       followers: 31,
       date: formate.asString("dd MM - hh:mm:ss", new Date()),
     },
