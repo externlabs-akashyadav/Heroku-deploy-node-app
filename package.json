@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "date-format": "^4.0.6",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  },
+  "name": "application-express",
+  "version": "1.0.0",
+  "description": "\"This is a application in express for learning purpose\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Akash Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
